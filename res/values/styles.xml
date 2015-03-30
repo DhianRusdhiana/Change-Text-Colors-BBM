@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme">
+		<item name="android:textColorPrimary">@drawable/primary_preference</item>
+		<item name="android:textColorSecondary">@drawable/secondary_preference</item>	
+    </style>
+</resources>

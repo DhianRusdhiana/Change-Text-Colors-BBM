@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">BbmTextColor</string>
+	<string name="title_navisha">Ganti Warna Teks</string>
+	
+	<!-- Actionbar Text Color -->
+	<string name="title_actionbar_text_color">Warna Text Actionbar</string>
+    <string name="sum_actionbar_text_color">Klik disini untuk mengganti warna text di actionbar</string>
+	<string name="title_con_pm">Warna Pesan Pribadi</string>
+    <string name="sum_con_pm">Pilih warna pesan pribadi di actionbar</string>
+	<string name="title_con_display_name_ab">Warna Nama Tampilan</string>
+    <string name="sum_con_display_name_ab">Pilih warna nama tampilan di actionbar</string>
+	
+	<!-- Conversation Text Color -->
+	<string name="title_conversation_text_color">Warna Teks Obrolan</string>
+    <string name="sum_conversation_text_color">Klik disini untuk mengganti warna teks di obrolan</string>
+	<string name="title_con_message">Warna Pesan</string>
+    <string name="sum_con_message">Pilih warna pesan di obrolan</string>
+    <string name="title_con_date_time">Warna Tanggal dan Waktu</string>
+    <string name="sum_con_date_time">Pilih warna tanggal dan waktu di obrolan</string>
+    <string name="title_con_display_name">Warna Nama Tampilan</string>
+    <string name="sum_con_display_name">Pilih warna nama tampilan di obrolan</string> 
+    <string name="title_con_bc">Warna Pesan Siaran (Coming Soon)</string>
+    <string name="sum_con_bc">Pilih warna pesan siaran</string>
+    <string name="title_colorping">Warna PING!!! (Coming Soon)</string>
+    <string name="sum_colorping">Pilih warna PING!!!</string>
+    
+
+	<!-- List Chat Text Color -->
+	<string name="title_list_chat">Warna Teks Daftar Obrolan</string>
+    <string name="sum_list_chat">Klik disini untuk mengganti warna teks di daftar obrolan</string>
+    <string name="title_lc_message">Warna Pesan</string>
+    <string name="sum_lc_message">Pilih warna pesan di daftar obrolan</string>
+	<string name="title_lc_date_time">Warna Tanggal dan Waktu</string>
+    <string name="sum_lc_date_time">Pilih warna tanggal dan waktu di daftar obrolan</string>
+    <string name="title_lc_display_name">Warna Nama Tampilan</string>
+    <string name="sum_lc_display_name">Pilih warna nama tampilan di daftar obrolan</string>
+	
+	<!-- feeds Text Color -->
+	<string name="title_list_updates_text_color">Warna Teks Daftar Umpan</string>
+	<string name="sum_list_updates_text_color">Klik disini untuk mengganti warna teks daftar umpan</string>
+	<string name="title_updates_date_time">Warna Tanggal Dan Waktu</string>
+	<string name="sum_updates_date_time">Pilih warna tanggal dan waktu di daftar umpan</string>
+	<string name="title_updates_pm">Warna Pesan Pribadi</string>
+	<string name="sum_updates_pm">Pilih warna pesan pribadi di daftar umpan</string>
+	<string name="title_updates_display_name">Warna Nama Tampilan</string>
+	<string name="sum_updates_display_name">Pilih warna nama tampilan di daftar umpan</string>
+    <string name="title_subtitle_updates">Umpan subtitle</string>
+	<string name="sum_subtitle_updates">Pilih warna umpan subtitle di daftar umpan</string>
+	
+	<!-- List Contact Color -->
+	<string name="title_list_contact_text_color">Warna Daftar Kontak</string>
+	<string name="sum_list_contact_text_color">Klik disini untuk mengganti warna teks di daftar kontak</string>
+	<string name="title_contact_name">Warna Nama Kontak</string>
+	<string name="sum_contact_name">Pilih warna nama kontak di daftar kontak</string>
+	<string name="title_contact_message">Warna Pesan Kontak</string>
+	<string name="sum_contact_message">Pilih warna pesan di daftar kontak</string>
+	
+	<!-- Default Text Colors CheckBox -->
+	<string name="title_back_to_default_color">Warna Teks Default</string>
+	<string name="sum_back_to_default_color_conversation">Gunakan warna default di obrolan</string>
+	<string name="sum_back_to_default_color_list_chat">Gunakan warna default di daftar obrolan</string>
+	<string name="sum_back_to_default_color_updates">Gunakan warna default di daftar umpan</string>
+    <string name="sum_back_to_default_color_actionbar">Gunakan warna default di actionbar</string>
+	<string name="sum_back_to_default_color_list_contact">Gunakan warna default di daftar kontak</string>
+	<string name="title_back_to_default_font">Gaya Huruf Default</string>
+	<string name="sum_back_to_default_font">Gunakan gaya huruf default</string>
+	
+
+
+	<string name="reload_msg">"Untuk menerapkan penggantian warna teks, Silahkan Muat Ulang BBM \n \n Muat Ulang Sekarang ?"</string>
+    <string name="reload_title">Muat Ulang</string>
+	<string name="reload_msg_font">"Untuk menerapkan penggantian gaya huruf, Silahkan Muat Ulang BBM \n \n Muat Ulang Sekarang ?"</string>
+	
+	<string name="change_font_face">Ganti Gaya Huruf</string>
+    <string name="fontPreviewString">Preview Gaya Huruf</string>
+
+	<string name="category_font_face">Gaya Huruf</string>
+	<string name="category_text_color">Warna Text</string>
+	
+	<string name="title_general_text_color">Warna Text General</string>
+	<string name="sum_general_text_color">Klik disini untuk mengganti warna teks secara general</string>
+	<string name="title_general">Warna General</string>
+	<string name="sum_general">Pilih warna di semua teks BBM</string>
+	<string name="sum_back_to_default_color_general">Gunakan warna default teks general</string>
+	
+
+</resources>

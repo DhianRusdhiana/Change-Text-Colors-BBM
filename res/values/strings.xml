@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">BbmTextColor</string>
+	<string name="title_navisha">Change Text Colors</string>
+	
+	<!-- Actionbar Text Color -->
+	<string name="title_actionbar_text_color">Top Actionbar Text Colors</string>
+    <string name="sum_actionbar_text_color">Click here to change text colors in top actionbar</string>
+	<string name="title_con_pm">Personal Message Color</string>
+    <string name="sum_con_pm">Select personal message color in top actionbar</string>
+	<string name="title_con_display_name_ab">Display Name Color</string>
+    <string name="sum_con_display_name_ab">Select display name color in top actionbar</string>
+	
+	<!-- Conversation Text Color -->
+	<string name="title_conversation_text_color">Conversation Text Colors</string>
+    <string name="sum_conversation_text_color">Click here to change text colors in conversation</string>
+	<string name="title_con_message">Message Color</string>
+    <string name="sum_con_message">Select message color in conversation</string>
+    <string name="title_con_date_time">Date Time Message Color</string>
+    <string name="sum_con_date_time">Select date time message in conversation</string>
+    <string name="title_con_display_name">Display Name Color</string>
+    <string name="sum_con_display_name">Select diaplay name color in conversation</string> 
+    <string name="title_con_bc">Broadcast Message Color</string>
+    <string name="sum_con_bc">Select broadcast message color</string>
+    <string name="title_colorping">PING!!! Color</string>
+    <string name="sum_colorping">Select PING!!! color</string>
+    
+
+	<!-- List Chat Text Color -->
+	<string name="title_list_chat">List Chats Text Colors</string>
+    <string name="sum_list_chat">Click here to change colors in list chat</string>
+    <string name="title_lc_message">Message Color</string>
+    <string name="sum_lc_message">Select message color in list chat</string>
+	<string name="title_lc_date_time">Date Time Color</string>
+    <string name="sum_lc_date_time">Select date time color in list chat</string>
+    <string name="title_lc_display_name">Display Name Color</string>
+    <string name="sum_lc_display_name">Select display name color in list chat</string>
+	
+	<!-- feeds Text Color -->
+	<string name="title_list_updates_text_color">List Feeds Text Colors</string>
+	<string name="sum_list_updates_text_color">Click here to change text colors in list feeds</string>
+	<string name="title_updates_date_time">Date Time Color</string>
+	<string name="sum_updates_date_time">Select date time color in list feeds</string>
+	<string name="title_updates_pm">Personal Message Color</string>
+	<string name="sum_updates_pm">Select personal message color in list feeds</string>
+	<string name="title_updates_display_name">Display Name Color</string>
+	<string name="sum_updates_display_name">Select display name color in list feeds</string>
+    <string name="title_subtitle_updates">Subtitle Updates</string>
+	<string name="sum_subtitle_updates">Select subtitle updates color</string>
+	
+	<!-- List Contact Color -->
+	<string name="title_list_contact_text_color">List Contact Text Colors</string>
+	<string name="sum_list_contact_text_color">Click here to change text colors in list contact</string>
+	<string name="title_contact_name">Contact Name Color</string>
+	<string name="sum_contact_name">Select contact name color in list contact</string>
+	<string name="title_contact_message">Contact Message Color</string>
+	<string name="sum_contact_message">Select contact message color in list contact</string>
+	
+	<!-- Default Text Colors CheckBox -->
+	<string name="title_back_to_default_color">Default Text Colors</string>
+	<string name="sum_back_to_default_color_conversation">Use default colors in conversation</string>
+	<string name="sum_back_to_default_color_list_chat">Use default colors in list chats</string>
+	<string name="sum_back_to_default_color_updates">Use default colors in list feeds</string>
+    <string name="sum_back_to_default_color_actionbar">Use default colors in top actionbar</string>
+	<string name="sum_back_to_default_color_list_contact">Use default colors in list contact</string>
+	<string name="sum_back_to_default_color_slide_menu">Use default colors in slide menu</string>
+	<string name="title_back_to_default_font">Default Font Face</string>
+	<string name="sum_back_to_default_font">Use default font face</string>
+	<string name="sum_back_to_default_color_general">Use default general text color</string>
+	
+    <!-- slide menu color -->
+	<string name="title_slide_menu_text_color">Slide Menu Text Colors</string>
+	<string name="sum_slide_menu_text_color">Click here to change text colors in slide menu</string>
+	<string name="title_slide_menu_title">Slide Menu Title Color</string>
+	<string name="sum_slide_menu_title">Select title color in slide menu</string>
+	<string name="title_slide_menu_subtitle">Slide Menu Subtitle Color</string>
+	<string name="sum_slide_menu_subtitle">Select subtitle color in slide menu</string>
+	
+	<string name="title_general_text_color">General Text Colors</string>
+	<string name="sum_general_text_color">Click here to change text colors general</string>
+	<string name="title_general">General Color</string>
+	<string name="sum_general">Select all text color in BBM</string>
+
+	<string name="reload_msg">"To Apply Changed Text Color Please Restart BBM \n \n Restart now?"</string>
+    <string name="reload_title">Restart</string>
+	
+	<string name="reload_msg_font">"To Apply Changed Font Face Please Restart BBM \n \n Restart now?"</string>
+    
+	
+	
+    <string name="change_font_face">Change Font face</string>
+    <string name="fontPreviewString">Preview Font Face</string>
+	
+	<string name="category_font_face">Font Face</string>
+	<string name="category_text_color">Text Colors</string>
+	
+	
+
+</resources>

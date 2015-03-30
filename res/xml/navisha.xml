@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	android:title="@string/title_navisha"
+	xmlns:com="http://schemas.android.com/apk/res/com.bbm.dhian.textColor"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:javadron="http://code.google.com/p/javadrone"
+	xmlns:vicha="http://schemas.android.com/apk/res-auto"
+	xmlns:dnr="http://schemas.android.com/apk/res-auto" >
+	<com.bbm.dhian.textColor.NavishaPreferenceCategory
+		android:title="@string/category_text_color">
+	<PreferenceScreen
+		android:textColor="#ffff0000"
+		android:title="@string/title_actionbar_text_color"
+		android:summary="@string/sum_actionbar_text_color">
+		<CheckBoxPreference
+			android:title="@string/title_back_to_default_color"
+			android:summary="@string/sum_back_to_default_color_actionbar"
+			android:defaultValue="true"
+			android:key="backcoloractionbar" />
+	
+	<com.bbm.dhian.textColor.ColorPickerPreference
+		android:key="name_bar_color_chat"
+		alphaSlider="true"
+		android:defaultValue="0xffffffff" 
+		android:title="@string/title_con_display_name_ab" 
+		android:summary="@string/sum_con_display_name_ab"
+	/>
+	<com.bbm.dhian.textColor.ColorPickerPreference
+		android:key="status_bar_color_chat"
+		alphaSlider="true"
+		android:defaultValue="0xffffffff" 
+		android:title="@string/title_con_pm" 
+		android:summary="@string/sum_con_pm"
+	/>
+ 	</PreferenceScreen>
+	<PreferenceScreen
+		android:title="@string/title_conversation_text_color"
+		android:summary="@string/sum_conversation_text_color">
+		<CheckBoxPreference
+			android:title="@string/title_back_to_default_color"
+			android:summary="@string/sum_back_to_default_color_conversation"
+			android:defaultValue="true"
+			android:key="backcolorchat" />
+		<com.bbm.dhian.textColor.ColorPickerPreference
+			android:key="name_sender_color_chat"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_con_display_name" 
+			android:summary="@string/sum_con_display_name"
+		/>
+		<com.bbm.dhian.textColor.ColorPickerPreference
+			android:key="massege_normal_color_chat"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff"
+			android:title="@string/title_con_message" 
+			android:summary="@string/sum_con_message"
+		/>
+		<com.bbm.dhian.textColor.ColorPickerPreference
+			android:key="massege_time_color_chat"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_con_date_time" 
+			android:summary="@string/sum_con_date_time"
+		/>
+		<com.bbm.dhian.textColor.ColorPickerPreference
+			android:key="massege_brodcsat_color_chat"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_con_bc" 
+			android:summary="@string/sum_con_bc"
+		/>
+	
+		<com.bbm.dhian.textColor.ColorPickerPreference
+			android:key="massege_ping_color_chat"
+			alphaSlider="true"
+			android:defaultValue="0xffffffffff" 
+			android:title="@string/title_colorping" 
+			android:summary="@string/sum_colorping"
+		/>
+		
+		
+
+		
+
+		
+	
+	</PreferenceScreen>
+		<PreferenceScreen
+			android:title="@string/title_list_chat"
+			android:summary="@string/sum_list_chat">
+			<CheckBoxPreference
+				android:title="@string/title_back_to_default_color"
+				android:summary="@string/sum_back_to_default_color_list_chat"
+				android:defaultValue="true"
+				android:key="backcolorlistchat" />
+			<com.bbm.dhian.textColor.ColorPickerForPreference
+				android:key="name_color_list"
+				alphaSlider="true"
+				android:defaultValue="0xffffffff" 
+				android:title="@string/title_lc_display_name" 
+				android:summary="@string/sum_lc_display_name"
+			/>
+			<com.bbm.dhian.textColor.ColorPickerForPreference
+			android:key="msg_nor_color_list"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_lc_message" 
+			android:summary="@string/sum_lc_message"
+		/>
+
+			<com.bbm.dhian.textColor.ColorPickerForPreference
+			android:key="time_color_list"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_lc_date_time" 
+			android:summary="@string/sum_lc_date_time"
+		/>
+			
+			
+
+		
+		</PreferenceScreen>
+			<PreferenceScreen
+				android:title="@string/title_list_updates_text_color"
+		    	android:summary="@string/sum_list_updates_text_color">
+				<CheckBoxPreference
+					android:title="@string/title_back_to_default_color"
+					android:summary="@string/sum_back_to_default_color_updates"
+					android:defaultValue="true"
+					android:key="backcolorupdate" />
+				<com.bbm.dhian.textColor.ColorPickerForPreference
+					android:key="name_color_update"
+					alphaSlider="true"
+					android:defaultValue="0xffffffff" 
+					android:title="@string/title_updates_display_name" 
+					android:summary="@string/sum_updates_display_name"
+				/>
+			<com.bbm.dhian.textColor.ColorPickerForPreference
+				android:key="subtitle_update_color"
+				alphaSlider="true"
+				android:defaultValue="0xffffffff" 
+				android:title="@string/title_subtitle_updates" 
+				android:summary="@string/sum_subtitle_updates"
+			/>
+		<com.bbm.dhian.textColor.ColorPickerForPreference
+			android:key="status_color_update"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_updates_pm" 
+			android:summary="@string/sum_updates_pm"
+		/>
+		
+		<com.bbm.dhian.textColor.ColorPickerForPreference
+			android:key="time_color_update"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_updates_date_time" 
+			android:summary="@string/sum_updates_date_time"
+		/>
+			</PreferenceScreen>
+	<PreferenceScreen
+		android:title="@string/title_list_contact_text_color"
+		android:summary="@string/sum_list_contact_text_color">
+		<CheckBoxPreference
+			android:title="@string/title_back_to_default_color"
+			android:summary="@string/sum_back_to_default_color_list_contact"
+			android:defaultValue="true"
+			android:key="backcolorcontact" />
+		<com.bbm.dhian.textColor.ColorPickerForPreference
+			android:key="list_contact_name"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_contact_name" 
+			android:summary="@string/sum_contact_name"
+		/>
+		<com.bbm.dhian.textColor.ColorPickerForPreference
+			android:key="list_contact_message"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_contact_message" 
+			android:summary="@string/sum_contact_message"
+		/>
+	</PreferenceScreen>
+		<PreferenceScreen
+		android:title="@string/title_slide_menu_text_color"
+		android:summary="@string/sum_slide_menu_text_color">
+		<CheckBoxPreference
+			android:title="@string/title_back_to_default_color"
+			android:summary="@string/sum_back_to_default_color_slide_menu"
+			android:defaultValue="true"
+			android:key="backcolorslide" />
+		<com.bbm.dhian.textColor.ColorPickerForPreference
+			android:key="slide_menu_title"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_slide_menu_title" 
+			android:summary="@string/sum_slide_menu_subtitle"
+		/>
+		<com.bbm.dhian.textColor.ColorPickerForPreference
+			android:key="slide_menu_subtitle"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_slide_menu_subtitle" 
+			android:summary="@string/sum_slide_menu_subtitle"
+		/>
+</PreferenceScreen>
+		<PreferenceScreen
+			android:title="@string/title_general_text_color"
+			android:summary="@string/sum_general_text_color">
+			<CheckBoxPreference
+				android:title="@string/title_back_to_default_color"
+				android:summary="@string/sum_back_to_default_color_general"
+				android:defaultValue="true"
+				android:key="backgeneral" />
+		<com.bbm.dhian.textColor.ColorPickerForPreference
+			android:key="general_text_color"
+			alphaSlider="true"
+			android:defaultValue="0xffffffff" 
+			android:title="@string/title_general" 
+			android:summary="@string/sum_general"
+		/>
+		</PreferenceScreen>
+	</com.bbm.dhian.textColor.NavishaPreferenceCategory>
+	<com.bbm.dhian.textColor.NavishaPreferenceCategory
+		android:title="@string/category_font_face">
+		
+	<CheckBoxPreference
+				android:title="@string/title_back_to_default_font"
+				android:summary="@string/sum_back_to_default_font"
+				android:defaultValue="true"
+				android:key="backfontstyle" />
+	<com.bbm.dhian.textColor.FontNavisha
+        android:defaultValue="fonts/DroidSans.ttf"
+        android:key="preference_font_face"
+        android:title="@string/change_font_face"
+        vicha:fontDirectory="fonts"
+        vicha:fontPreviewString="@string/fontPreviewString"/>
+		
+	</com.bbm.dhian.textColor.NavishaPreferenceCategory>
+	
+	</PreferenceScreen>
+	
+
